@@ -20,5 +20,7 @@ public class SimpleFactory {
 
         Product others = SimpleFactory.createProduct("others");
         others.produce();
+
+        System.out.println("简单工厂模式");
     }
 }
